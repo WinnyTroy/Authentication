@@ -12,7 +12,7 @@ we can easily integrate. But strompath is not for free, you need to pay for them
 will make the login details application specific. Instead we can store them in cloud and use them for Mobile, tablet, Desktop applications
 
 
-#### Few CSS things, I thought of sharing
+#### 1. Few CSS things, I thought of sharing
 * To make the page more responsive, I had used **calc** funciton which will calcuate the space between top banner and bottom banner. This helps your page look more responsive eventhough the height of user screen changes. But if the user screen is so small, it's better to remove the left side contents and place the other contents of the page one below the other. Currently i did not implemented it perfectly, but you can use the bootstrap columns to do that easily.
 
 ```css
@@ -55,7 +55,7 @@ This will reduce the coding time, improves readability, loads less code on the b
 
 
 
-#### If you want to carousel images instead of grey background, then add the below code with your customized images
+####2. If you want to carousel images instead of grey background, then add the below code with your customized images
 
 ```html
 <div id="myCarousel" class="carousel slide sign-in-carousel">
@@ -85,7 +85,7 @@ This will reduce the coding time, improves readability, loads less code on the b
 ```
 
 
-##### How to integrate google recaptcha
+#### 3. How to integrate google recaptcha
 
 * Here I had included previous version of captcha, Because the page design does not support the new version of captcha. We can customize the new version also, but don't know I was more fascinated towards the previous version of captcha
 * writing about old version of captcha is of no use, I will write the steps for the new version of captcha
@@ -108,6 +108,8 @@ This will reduce the coding time, improves readability, loads less code on the b
 ````
 The above explanation is for the latest one, not the one which I had implemented in sign up page.
 	
+
+
 
 * I will write the backend code for this in a seperate repository. I will be using strompath for storing the **Authentication** details and node.js. Strompath officially provide node API for integration or you can do with REST API. 
 I prefer node API because it is pretty cool.

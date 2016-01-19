@@ -49,6 +49,10 @@ This will reduce the coding time, improves readability, loads less code on the b
  
 * Use less instead of using css, Because it reduces lots of code and increases the readability.
 
+* since i had used less no of icons i did not clubbed them into an sprite image, Its better if you can club them into an sprite image as it will reduces the browser requests to the server and reduces the user bandwidth.
+
+* finally, put the css at the top. remove unneceesery white spaces, organise the code. 
+
 
 	
 	

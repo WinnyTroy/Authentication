@@ -35,8 +35,9 @@ p { margin-top: 10px;
 	
 	should be replaced with 
 	p { margin: 10px 20px 30px 40px; }
+	
 	```
-	This will reduce the coding time, improves readability, loads less code on the browser,...
+This will reduce the coding time, improves readability, loads less code on the browser,...
 	
 	
 * I had wrote some rough documentation because the code is not that complex to understand, but writing documentation is always an recomended approach. Other will find it so useful and you can reduce the production time. 

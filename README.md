@@ -66,7 +66,7 @@ This will reduce the coding time, improves readability, loads less code on the b
 ![alt tag](https://github.com/Zakir289/Authentication/blob/master/Authentication_images/forgotpasswd.png)
 
 ##### Errors 
-![alt tag](https://github.com/Zakir289/Authentication/blob/master/Authentication_images/forgotpasswd.png)
+![alt tag](https://github.com/Zakir289/Authentication/blob/master/Authentication_images/error1.png)
 ![alt tag](https://github.com/Zakir289/Authentication/blob/master/Authentication_images/error2.png)
 
 ####2. If you want to carousel images instead of grey background, then add the below code with your customized images

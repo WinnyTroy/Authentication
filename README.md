@@ -31,10 +31,10 @@ p { margin-top: 10px;
 	margin-right: 20px;
 	margin-bottom:  30px;
 	margin-left: 40px; }
-	```
+
 	
 	should be replaced with 
-```css
+
 p { margin: 10px 20px 30px 40px; }
 ```
 

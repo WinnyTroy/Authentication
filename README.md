@@ -54,6 +54,31 @@ This will reduce the coding time, improves readability, loads less code on the b
 * finally, put the css at the top. remove unneceesery white spaces, organise the code. 
 
 
+
+#### If you want to carousel images instead of grey background, then add the below code with your customized images
+
+```html
+<div id="myCarousel" class="carousel slide sign-in-carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <div class="fill" style="background-image:url('images/background1.png');"></div>
+    </div>
+    <div class="item">
+      <div class="fill" style="background-image:url('images/background2.png');"></div>
+    </div>
+    <div class="item">
+      <div class="fill" style="background-image:url('images/background3.png');"></div>
+    </div>
+  </div>
+</div>
+```
+
+
 	
 
 * I will write the backend code for this in a seperate repository. I will be using strompath for storing the **Authentication** details and node.js. Strompath officially provide node API for integration or you can do with REST API. 

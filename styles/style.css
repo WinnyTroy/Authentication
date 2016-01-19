@@ -1,0 +1,625 @@
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('fonts/OpenSans-Regular.ttf');
+    src: url('fonts/OpenSans-Light.ttf');
+}
+
+.sign-in-container {
+    width: 100%;
+    height: 100%;
+    background: black;
+    font-family: "Open Sans";
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.zakarthi-sign-in-form input {
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+
+.bl-0 {
+    border-left: 0px;
+}
+
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+
+.sign-in-panel {
+    height: -moz-calc(100% - 160px) !important;
+    height: -webkit-calc(100% - 160px) !important;
+    height: calc(100% - 160px) !important;
+    background-color: #27303F;
+}
+
+.sign-in-panel.item {
+    height: 100%;
+}
+
+.sign-in-form {
+    width: 80%;
+    color: white;
+}
+
+.forgotBut {
+    color: #EEEEEE;
+    background: none;
+    float: right;
+    border: none;
+}
+
+.new-here {
+    margin-top: 5px;
+    display: inline-block;
+    color: #e8e8e8;
+    font-size: 14px;
+    font-weight: 400;
+    background: None;
+    border: 0px;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.registration-header {
+    height: 40px;
+    background: black;
+
+}
+
+.form-container {
+    position: absolute;
+    top: 12%;
+    z-index: 1000;
+}
+
+@media only screen and (min-width: 992px) {
+    .form-container {
+        position: absolute;
+        top: 30%;
+        z-index: 1000;
+    }
+}
+
+.sign-in-header {
+    margin: 0px !important;
+    height: 90px;
+    background-color: black;
+}
+
+.sign-in-logo {
+    margin-left: 40px;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 10px;
+}
+
+.sign-in-brand {
+    height: 40px;
+    color: white;
+    font-size: 25px;
+
+}
+
+.sign-in-header .row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-top: 20px;
+}
+
+.zakarthi-description img {
+    width: 18px;
+    height: 18px;
+    margin: 0px 20px 0px 20px;
+    float: left;
+}
+
+@media only screen and (min-width: 992px) {
+    .quateeza-features {
+        margin-top: 15px;
+        margin-left: 4px;
+    }
+}
+
+.quateeza-features .row {
+    margin-left: -30px;
+}
+
+.zakarthi-sign-in-form .input-group span, .zakarthi-sign-in-form .input-group input {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    background-color: #d6d8d9 !important;
+}
+
+.zakarthi-sign-in-form .input-group input, .sign-up input {
+    height: 46px;
+    font-family: "Open Sans";
+    font-weight: 100;
+    color: #838383;
+    font-size: 16px;
+}
+
+.zakarthi-sign-in-form img {
+    width: 24px;
+    height: 24px;
+}
+
+.form-control:focus {
+    border: 0px;
+    box-shadow: none;
+}
+
+.zakarthi-sign-in-form .forgot-passd button {
+    margin-top: 5px;
+    font-weight: 300;
+    color: #e8e8e8 !important;
+    font-size: 13px !important;
+    padding-right: 0px;
+    outline: none;
+}
+
+.zakarthi-sign-in-form .forgot-passd button:hover {
+    color: white !important;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.new-here a:focus, a:hover {
+    color: white;
+    text-decoration: none
+}
+
+.sign-in-submit, .sign-up input[type="submit"] {
+    background-color: #25C5D1;
+    border: black;
+    width: 120px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+.zakarthi-sign-in-form .btn-primary:hover, .sign-up input[type="submit"]:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.zakarthi-description {
+    font-family: "Open Sans";
+    color: white;
+
+}
+
+.desc-heading {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.quateeza-features p {
+    color: white;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.carousel-indicators li {
+    background-color: #9B9CA0;
+    border: solid 1px #9B9CA0;
+}
+
+.sign-in-form .sign-in-submit:hover, .sign-in-form .sign-in-submit:focus {
+    background-color: #25C5D1;
+    color: white;
+    border-color: black;
+    outline: none;
+}
+
+.sign-in-error {
+    background-color: #CE3838;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 30px;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 3px;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+.zakarthi-login-in a:focus {
+    outline: none;
+    color: white;
+    text-decoration: none;
+}
+
+/*forgot password styles */
+
+.forgot-header {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#forgetPasswdModel .modal-content {
+    width: 500px;
+    height: 260px;
+    background-color: #D6D6D6;
+    opacity: .95;
+    padding: 35px 35px 0px 35px;
+}
+
+.email-label {
+    margin-left: -15px;
+}
+
+#forgetPasswdModel .forgot-email {
+    height: 46px;
+    font-weight: 100;
+    color: #838383;
+    font-size: 16px;
+    border-left: 0px;
+}
+
+#forgetPasswdModel .modal-content {
+    color: black;
+}
+
+#forgetPasswdModel .forgot-passwd-submit {
+    background-color: #25C5D1;
+    color: white;
+    outline: none;
+    width: 100px;
+    margin-top: 40px;
+}
+
+#forgetPasswdModel .modal-dialog {
+    width: 500px;
+    top: 90px;
+}
+
+#forgetPasswdModel .email-icon {
+    width: 24px;
+    height: 19px;
+}
+
+#forgetPasswdModel .input-group-addon {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+#forgetPasswdModel .forgot-email:focus {
+    height: 46px;
+    border-top: 1px solid #D6D6D6;
+    border-bottom: 1px solid #D6D6D6;
+    border-right: 1px solid #D6D6D6;
+}
+
+#forgetPasswdModel .email-panel {
+    margin-left: -17px;
+    width: 435px;
+}
+#forgetPasswdModel .forgot-passwd-error{
+    color:red;
+    margin-top: -10px;
+    margin-left: -15px;
+    margin-bottom: 5px;
+}
+
+/*signup css*/
+
+
+.captcha-layout {
+    margin-left: -15px;
+    margin-top: 12px;
+}
+
+.sign-up-container input[type="text"], .sign-up-container input[type="email"] {
+    border: 0px;
+}
+
+#recaptcha_response_field {
+    width: 454px;
+    padding-left: 10px;
+}
+
+#recaptcha_challenge_image {
+    margin-top: 17px;
+    width: 454px;
+}
+
+#recaptcha_image {
+    margin-bottom: 25px;
+}
+
+.captcha-help {
+    width: 454px;
+}
+
+.captcha-help a:last-child {
+    float: right;
+}
+
+#recaptcha_widget_div {
+    display: none;
+}
+
+.captcha-help a, .captcha-help a:hover, .captcha-help a:focus {
+    color: #0099d3;
+    text-decoration: none;
+    outline: none;
+}
+
+.modal-content.signup-success-msg {
+    height: 230px;
+}
+
+/* invalidlink.html CSS */
+
+.helpme-link {
+    text-decoration: none;
+}
+
+.helpme-link:hover {;
+    cursor: pointer;
+    color: #26bccd;
+    text-decoration: underline
+}
+
+
+.captcha-help input{
+    background: none;
+    border: 0px;
+    font-size: 13px;
+    color: #0099d3;
+    padding: 0px;
+    height: 20px;
+    font-weight: 500;
+}
+.captcha-help input:focus{
+    outline: none;
+}
+
+#recaptcha_response_field:focus{
+    outline: none;
+}
+
+
+
+.sign-up-waiting-request {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1500;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sign-up-waiting-request img {
+    top: 34%;
+    position: fixed;
+    left: 43%;
+
+    width: 50px;
+    height: 50px;
+}
+
+.sign-up-waiting-request p {
+    color: white;
+    top: 40%;
+    left: 42%;
+    position: fixed;
+}
+
+
+.sign-up-waiting-request {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1500;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sign-up-waiting-request img {
+    top: 34%;
+    position: fixed;
+    left: 43%;
+
+    width: 50px;
+    height: 50px;
+}
+
+.sign-up-waiting-request p {
+    color: white;
+    top: 40%;
+    left: 42%;
+    position: fixed;
+}
+
+
+
+.signup-github img {
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+/* sign up */
+
+.request-access {
+    width: 200px !important;
+    /*margin-right: 40px !important;*/
+    margin-top: 40px !important;
+    /*margin-bottom: 40px !important;*/
+
+}
+
+.sign-up-header {
+    height: 25px;
+}
+
+.sign-up .modal-content {
+    padding: 20px;
+    width: 522px;
+    height: 570px;
+    background-color: #D6D6D6;
+    opacity: .95;
+    padding: 35px 35px 0px 35px;
+    font-family: "Open Sans";
+    top: 50%;
+    margin-top: -300px;
+}
+
+#signUpModal .modal-dialog {
+    width: 500px;
+    margin: 0px auto;
+    height: 100%;
+}
+
+.pd-0 {
+    padding: 0px;
+}
+
+.sign-up input[name="first-name"] {
+    margin-right: 40px;
+}
+
+.sign-up .sign-up-name {
+    margin-bottom: 20px;
+}
+
+.sign-up input[name="first-name"] {
+    background: url(../images/signin/name.png) no-repeat;
+    background-size: 24px 24px;
+    background-position: 5px 9px;
+    padding-left: 38px;
+    background-color: white;
+}
+
+.sign-up input[type="email"] {
+    background: url(../images/signin/email.png) no-repeat;
+
+    padding-left: 40px;
+    background-color: white;
+    background-size: 22px 18px;
+    background-position: 7px 12px;
+}
+
+.modal-backdrop {
+    /*opacity:0. !important;*/
+}
+
+.sign-up .modal-title {
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.sign-up .sign-up-error {
+    height: 30px;
+}
+
+.sign-up .modal-title {
+    margin-bottom: 14px;
+    margin-left: -6px;
+}
+
+.sign-up input[name="Last-name"] {
+    padding-left: 25px;
+}
+
+
+.sign-up button[type="submit"] {
+    background-color: #26bccd;
+    border: black;
+    width: 120px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+.sign-up button[type="submit"]:disabled {
+    background-color: #6F6F6F !important;
+    border: black;
+    width: 120px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 400;
+    color: white !important;
+}
+
+.quanteeza-sign-in-form .btn-primary:hover, .sign-up button[type="submit"]:hover {
+    background-color: #28c4d2;
+    border-color: black;
+}
+
+.signup-github {
+    border-radius: 5px;
+    color: white;
+    height: 35px;
+}
+
+.signup-github a:hover {
+    background-color: #183e52;
+}
+
+.signup-github a {
+    background-color: #1d4c64;
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    padding-top: 9px;
+}
+
+.signup-github .btn.focus {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+

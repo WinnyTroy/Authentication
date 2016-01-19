@@ -1,0 +1,297 @@
+<html>
+<head>
+  <title>ZAKARTHI</title>
+  <link rel="icon" type="image/png" href="favicon.ico">
+  <!--including necessery styles for zakarthi-->
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+<div class="sign-in-container">
+  <div class="row sign-in-header">
+    <div class="row">
+      <img class="sign-in-logo" src="images/logo.jpg" alt="logo"/>
+      <div class="sign-in-brand"> ZAKARTHI</div>
+    </div>
+  </div>
+
+  <div class="fill sign-in-panel">
+    <div class="form-container">
+      <div class="container-fluid sign-in-form ">
+        <div class="row">
+          <div class=" col-lg-7 col-md-7 col-sm-12 col-xs-12 zakarthi-description">
+            <div class="row">
+              <p class="desc-heading">All Time Philosophy</p>
+              <h4>Experience our Gun shot stuff</h4>
+            </div>
+            <div class="row quateeza-features">
+              <div class="row">
+                <img src="images/magic-wand.png">
+
+                <p>Don't think it's magic</p>
+              </div>
+              <div class="row">
+                <img src="images/Statistics.png">
+
+                <p>from Aristotle to Ayn rand</p>
+              </div>
+              <div class="row" style="padding-left:3px;">
+                <img src="images/business.png" style="width:16px; height:16px; margin-top:2px; ">
+
+                <p>Who are you?</p>
+              </div>
+              <div class="row">
+                <img src="images/cloud.png" style="margin-top:3px; margin-left:22px;margin-right:18px">
+
+                <p>Virtual world</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col -lg-5 col-md-5 col-sm-9 col-xs-9">
+
+            <form action="" method="POST" class="zakarthi-login-in">
+
+
+              <div class="row zakarthi-sign-in-form">
+                <div class="sign-in-error hide"></div>
+
+                <div class="sign-in-error validation-error">Please enter the required fields</div>
+
+                <div class="col-xs-12 col-md-12 col-lg-12 col-xs-12 mt15">
+                  <div class="input-group">
+                    <span class="input-group-addon"><img src="images/name.png"></span>
+                    <input placeholder="Email" type="text" id="inputUsername"
+                           name="" autofocus="autofocus"
+                           class="form-control bl-0 br-5 login-user-name" value="Username"
+                      >
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-12 col-lg-12  mt20">
+                  <div class="input-group">
+                    <span class="input-group-addon "><img src="images/key.png"></span>
+                    <input placeholder="Password" type="password" id="inputPassword" name=""
+                           value=""
+                           class="form-control password bl-0 br-5 login-password">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-12 col-lg-12  forgot-passd pull-right">
+                  <button type="button" class="forgotBut">Forgot Password ?
+                  </button>
+                </div>
+
+                <div class="col-xs-12 col-md-12 col-lg-12  col-lg-12 mt-12">
+                  <button type="button"  class="new-here">New here? Signup</button>
+                  <button class="btn btn-sm pull-right  sign-in-submit">
+                    Sign In<i class="md-keyboard-arrow-right "></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="forgetPasswdModel" class="modal fade">
+    <div role="document" class="modal-dialog">
+      <div class="modal-content">
+        <div class="forgot-header">
+          <p class="modal-title">Forgot Password?</p>
+        </div>
+        <div class="modal-body">
+          <div class="forgot-passwd-container">
+            <div class="forgot-passwd-error hide"></div>
+            <form class="forgot-passwd">
+              <p class="email-label"> Enter you email address to reset your password</p>
+
+              <div class="input-group email-panel">
+                <span class="input-group-addon"><img class="email-icon" src="images/email.png"></span>
+                <input type="text" class="form-control forgot-email" placeholder="Email address">
+              </div>
+              <div class="row">
+                <input type="submit" class="btn btn-block btn-sm pull-right forgot-passwd-submit" value="Submit">
+              </div>
+            </form>
+          </div>
+          <div class="success-msg hide">
+            <p>Email access has been sent successfully. Please open the access link from your registered email id to
+              reset your password</p>
+            <a class="btn sign-in-redirect" href="https://imaginea.bdf.io">OK</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+
+
+<div class="modal fade sign-up" id="signUpModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="sign-up-header">
+        <p class="modal-title">Sign up</p>
+      </div>
+      <div class="modal-body">
+        <div class="sign-up-container">
+          <div class="sign-up-description error-block" ng-show="submitted">
+            <p></p>
+          </div>
+          <p class="sign-up-description"> Type in your email id. We will send you a access link.</p>
+
+          <form class="sign-up-form" name="userForm" novalidate>
+            <div class="row mt20 sign-up-name" >
+              <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 pd-0 ">
+                <input placeholder="First name" type="text"
+                       class="form-control" name="firstName" required
+                >
+              </div>
+              <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 pd-0 pull-right">
+
+
+                <input placeholder="Last name" type="text"
+                       class="form-control" name="lastName" required>
+              </div>
+            </div>
+            <div class="row">
+              <input placeholder="Email address" type="email"
+                     class="form-control" name="email" >
+            </div>
+
+            <div class="captcha-layout">
+              <p class=''>Are you a human?</p>
+              <input class='' id='recaptcha_response_field' name='recaptcha_response_field' placeholder='Type the words that appear below' type='text' required>
+              <div class='hide'>Incorrect, please try again</div>
+              <div id='recaptcha_image'></div>
+              <div class="captcha-help">
+                <input type="button" id = "captchaCode" value ="Get Another Code" onclick="Recaptcha.reload()"/>
+                <input type="button" class="pull-right" value ="Help" onclick="Recaptcha.reload()"/>
+              </div>
+            </div>
+
+
+
+            <div class="row mt40">
+              <a href="/" class="pull-left existing-user-sign-in-link"> Already a member? Sign In </a>
+              <button type="submit"
+                      class="btn  btn-block btn-sm pull-right request-access">Request Access</button>
+            </div>
+
+          </form>
+        </div>
+        <div class="success-msg hide">
+          <p>Email access has been sent successfully. Please open the access link from your registered
+            email id to activate your account</p>
+          <a href="/" class="btn sign-in-redirect">OK</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Please unlock it if you want corousel effect-->
+
+<!--<div id="myCarousel" class="carousel slide sign-in-carousel">-->
+  <!--<ol class="carousel-indicators">-->
+    <!--<li data-target="#myCarousel" data-slide-to="0" class="active"></li>-->
+    <!--<li data-target="#myCarousel" data-slide-to="1"></li>-->
+    <!--<li data-target="#myCarousel" data-slide-to="2"></li>-->
+  <!--</ol>-->
+  <!--<div class="carousel-inner">-->
+    <!--<div class="item active">-->
+      <!--<div class="fill" style="background-image:url('images/background1.png');"></div>-->
+    <!--</div>-->
+    <!--<div class="item">-->
+      <!--<div class="fill" style="background-image:url('images/background2.png');"></div>-->
+    <!--</div>-->
+    <!--<div class="item">-->
+      <!--<div class="fill" style="background-image:url('images/background3.png');"></div>-->
+    <!--</div>-->
+  <!--</div>-->
+<!--</div>-->
+
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+
+
+
+<script>
+  $('.validation-error').remove();
+  $('.carousel').carousel({
+    interval: 4000 //changes the speed based on the requirement
+  })
+
+//Adding javascript validation for login page
+  $(".sign-in-submit").click(function (event) {
+    $('.sign-in-error, .validation-error').addClass('hide')
+    var username = $('.login-user-name').val(),
+      passwd = $('.login-password').val(),
+      re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    if (username == "") {
+      $('.sign-in-error').html("Please enter your Email Id.");
+      $('.sign-in-error').removeClass('hide');
+      return false;
+    }
+    else if (!(re.test(username))) {
+      $('.sign-in-error').html("Please enter valid email id");
+      $('.sign-in-error').removeClass('hide');
+      return false;
+    }
+    else if (passwd == "") {
+      $('.sign-in-error').html("Please enter your Password.");
+      $('.sign-in-error').removeClass('hide')
+      return false;
+    }
+
+    $(".zakarthi-login-in").submit(); //works when you give something in form action
+  });
+
+
+  $('.new-here').on('click', function(){
+    console.log('its clicked')
+    $('#signUpModal').modal('show')
+  })
+
+  //modal requirements for forgot password
+  $('.forgotBut').on('click', function () {
+    $('.forgot-passwd-error').addClass('hide')
+    $("#forgetPasswdModel").modal('show');
+  })
+
+
+  $('.forgot-passwd-submit').on('click', function () {
+     $('.forgot-passwd-error').addClass('hide')
+    var forgotEmail = $('.forgot-email').val()
+
+    re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    if (forgotEmail == "") {
+      $('.forgot-passwd-error').html("Please enter your Email Id.");
+      $('.forgot-passwd-error').removeClass('hide');
+      return false;
+    }
+    else if (!(re.test(forgotEmail))) {
+      $('.forgot-passwd-error').html("Please enter valid email id");
+      $('.forgot-passwd-error').removeClass('hide');
+      return false;
+
+    }
+  })
+
+
+</script>
+
+<!--The file responsible for the google recapthca-->
+<script type="text/javascript" src="https://www.google.com/recaptcha/api/challenge?k=6LcaTBMTAAAAAPoB_AmXhn1r0n5uSfXychqRP6Kr"></script>
+
+</body>
+</html>
+

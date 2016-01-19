@@ -55,4 +55,8 @@ This will reduce the coding time, improves readability, loads less code on the b
 
 
 	
-	
+
+* I will write the backend code for this in a seperate repository. I will be using strompath for storing the **Authentication** details and node.js. Strompath officially provide node API for integration or you can do with REST API. 
+I prefer node API because it is pretty cool.
+
+

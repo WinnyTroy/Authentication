@@ -23,3 +23,30 @@ will make the login details application specific. Instead we can store them in c
     background-color: #27303F;
 }
 ```
+* Most of the places I had used not used short hand notation, But the recomendation approach from experts is use **short hand notation**. Margin, border, padding, background, font, list-style, and even outline supports short hand notation.  
+
+**for example:** 
+``` css
+p { margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom:  30px;
+	margin-left: 40px; }
+	
+	
+	should be replaced with 
+	p { margin: 10px 20px 30px 40px; }
+	```
+	This will reduce the coding time, improves readability, loads less code on the browser,...
+	
+	
+* I had wrote some rough documentation because the code is not that complex to understand, but writing documentation is always an recomended approach. Other will find it so useful and you can reduce the production time. 
+
+* Since there is only one css file in this project I did not used any compressed tools for css. If there are more number of css files, then you need use some compress library to compress those css files into one file as it will reduce the no of requests from browser to server and saves the user bandwidth.
+
+* Most of the work that you do using Javascript can be done with css especially by using css3. I would have missed and used javascript, But it's better if we use media queries or latest css3 features.
+ 
+* Use less instead of using css, Because it reduces lots of code and increases the readability.
+
+
+	
+	

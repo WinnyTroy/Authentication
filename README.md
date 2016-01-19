@@ -83,6 +83,30 @@ This will reduce the coding time, improves readability, loads less code on the b
     interval: 4000 //changes the speed based on the requirement
   })
 ```
+
+
+##### How to integrate google recaptcha
+
+* Here I had included previous version of captcha, Because the page design does not support the new version of captcha. We can customize the new version also, but don't know I was more fascinated towards the previous version of captcha
+* writing about old version of captcha is of no use, I will write the steps for the new version of captcha
+* Please go through the below steps
+
+**1:** you need an api key which you will getting from https://www.google.com/recaptcha/admin#list. You need to login into your Google account and get the api key from this link. for testing in local host, you can use any api key but for production you need to register the key.
+
+**2:** Once step 1 is done, you will two keys. **Site key** and **Secret key** 
+ 
+ **site key** will be used to html code and **Secret key** is used between your site and Google.  Make sure you keep it secret. 
+ 
+ **3:** You need a javascript snippet for include recaptcha into your site. you need to directly include the file link in your index.html or any file where you include the javascript files. 
+ ```javascript
+ <script src='https://www.google.com/recaptcha/api.js'></script>
+ ```
+ Google supports different languages also, but I am not going into it. 
+ **4.** You need to add the form markup when ever you need to add captcha to your sign up page. 
+ ```html
+ <div class="g-recaptcha" data-sitekey="******"></div>
+````
+The above explanation is for the latest one, not the one which I had implemented in sign up page.
 	
 
 * I will write the backend code for this in a seperate repository. I will be using strompath for storing the **Authentication** details and node.js. Strompath officially provide node API for integration or you can do with REST API. 
